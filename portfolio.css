@@ -79,19 +79,7 @@ img{
     width: 350px;
     height: 350px;
     border-radius: 200px;
-    /* animation: floatImage 4s ease-in-out infinite; */
 }
-/* @keyframes floatImage{
-    0%{
-        transform: translateY();
-    }
-    50%{
-        transform: translateY(-2.4rem);
-    }
-    100%{
-        transform: translateY(0);
-    }
-} */
 .home-content p{
     font-size: 1.6rem;
 }
@@ -107,7 +95,6 @@ img{
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-    /* transition: .5s ease; */
 }
 .social-media a:hover{
     background: var(--main-color);
@@ -125,7 +112,6 @@ img{
     color: var(--bg-color);
     letter-spacing: .1rem;
     font-weight: 600;
-    /* transition: .5s ease; */
     text-decoration: none;
 }
 .btn:hover{
@@ -174,7 +160,6 @@ img{
     border-radius: 2rem;
     text-align: center;
     border: .3rem solid var(--snd-bg-color);
-    /* transition: .5s ease; */
 }
 .services-container .services-box:hover{
     border-color: var(--main-color);
