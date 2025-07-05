@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Responsive Personal Portfolio Website Design</title>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="#projects" class="active">Projects</a>
+            <a href="#certificate" class="active">Certificate</a>
+            <a href="#contact" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, My self</h3>
+            <h1>Foram Sherathiya</h1>
+            <h3>And I'm a <span>Full-Stack Web Developer</span></h3>
+            <p>Seeking an entry-level role in Full Stack Developer, Where i can apply my analytical abilities, creative problem-solving and innovative thinking to add value to the team and organization.</p>
+            <div class="social-media">
+                <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a>  -->
+                <a href="https://github.com/foram7115"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/foram_sherathiya711/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/foram-sherathiya-1b87b8312"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="FORAM - RESUME.pdf" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="profile.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profile.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>Seeking an entry-level role in Full Stack Developer, Where i can apply my analytical abilities, creative problem-solving and innovative thinking to add value to the team and organization.</p>
+            
+        </div>
+    </section>
+    
+    <section class="services" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-palette"></i>
+            <h3>E-commerce Website</h3>
+            <p> (Green Living) with the use of Figma collaborative tool - Duration : 1 Month</p>
+            <a href="https://github.com/foram7115/2302031000101/tree/main/Assignment2" class="btn">Go to My Project</a>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Responsive Website</h3>
+            <p>Using HTML, CSS, JavaScript  Duration : 2 Days</p>
+            <a href="https://github.com/foram7115/Project/blob/main/website.html" class="btn">Go to My Project</a>
+        </div>
+    </div>
+    </section>
+
+    <section class="portfolio" id="certificate">
+        <h2 class="heading">My <span>Certificates</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="postman.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Postman</h4>
+                    <p>Postman API Certification and Badge</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+             <div class="portfolio-box">
+                <img src="AWS.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>AWS</h4>
+                    <p>AWS Academy Graduate - AWS Academy Introduction to Cloud</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+             <div class="portfolio-box">
+                <img src="IBM.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>IBM</h4>
+                    <p>IBM SkillBuild - Cloud Computing Fundamentals</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+             <div class="portfolio-box">
+                <img src="IIT.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>IIT</h4>
+                    <p>Indian InstIIT MUMBAI - Placement Preparation Program</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email Adress">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+                <textarea name="" id="" placeholder="Your Message"></textarea>
+                <input type="submit" value="send Message" class="btn">
+            </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @heresthecode | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
