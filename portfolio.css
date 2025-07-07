@@ -360,9 +360,9 @@ span{
         box-shadow: 0 .5rem 1rem rgba(0,0,0,0.2);
         display: none;
     }
-    .navbar .active{
-        display: block;
-    }
+    .navbar.show {
+    display: block;
+}
     .navbar a{
         display: block;
         font-size: 2rem;
