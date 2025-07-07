@@ -125,7 +125,9 @@ img{
     background: var(--bg-color);
 }
 .about-img{
-    width: 35vw;
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
 }
 .heading{
     text-align: center;
