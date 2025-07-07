@@ -388,8 +388,11 @@ span{
         flex-direction: column;
     }
     .about-img img{
-        width: 90vw;
-        margin-top: 4rem;
+        /* width: 90vw;
+        margin-top: 4rem; */
+        width: 350px;
+    height: 350px;
+    border-radius: 200px;
     }
     .services h2{
         margin-bottom: 3rem;
@@ -410,8 +413,8 @@ span{
         margin-top: 8rem;
     }
     .about-img img{
-        width: 10vw;
-        margin-top: 4rem;
+        width: 350px;
+        margin-top: 2;
     }
 }
 @media(max-width: 450px){
