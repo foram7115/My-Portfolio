@@ -2,7 +2,7 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
-    navbar.classList.toggle('active');
+    navbar.classList.toggle('show');
 };
 
 let sections = document.querySelectorAll('section');
@@ -26,16 +26,3 @@ window.onscroll = () => {
         }
     });
 };
-
-document.querySelectorAll('.navbar a').forEach(link => {
-    link.addEventListener('click', function (e) {
-        e.preventDefault();
-        let targetId = this.getAttribute('href').substring(1);
-        let targetSection = document.getElementById(targetId);
-        targetSection.scrollIntoView({
-            behavior: 'smooth'
-        });
-
-        navbar.classList.remove('active');
-    });
-});
